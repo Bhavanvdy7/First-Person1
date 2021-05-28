@@ -1,0 +1,429 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/XR/Unity/First Person
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51141
+Successfully changed project path to: D:/XR/Unity/First Person
+D:/XR/Unity/First Person
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/XR/Unity/First Person/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD FirePro M6100 (ID=0x6646)
+    Vendor:   
+    VRAM:     2024 MB
+    Driver:   27.20.11027.5002
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001851 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.041 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1548 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 100.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 3.378800 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.226900 ms MarkObjects: 2.669500 ms  DeleteObjects: 0.159400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/FPS.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FPS.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3c21be509c52e3561c10e4d978ba50') in 0.026965 seconds
+  Import took 0.034243 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1511 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 2.796700 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.103200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.767438 seconds.
+  path: Assets/FireExplosionVFX/Prefabs
+  artifactKey: Guid(57fdbae21eb52fb45b44ab3344002229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs using Guid(57fdbae21eb52fb45b44ab3344002229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1312202a275cc3802cc3ba60b4c995') in 0.035920 seconds
+  Import took 0.041007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039266 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilSplashHIGH_Root.prefab
+  artifactKey: Guid(a11dc34cafe3dfd4facb59cfb4e72de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilSplashHIGH_Root.prefab using Guid(a11dc34cafe3dfd4facb59cfb4e72de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29671ce7db822f0dc01b6b0355f4189b') in 0.107903 seconds
+  Import took 0.115091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/OilBottle_Low.prefab
+  artifactKey: Guid(05b4c7cb9f43acc4a9950d8d152ae51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/OilBottle_Low.prefab using Guid(05b4c7cb9f43acc4a9950d8d152ae51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8826f0b25d36457a1449c6d2e389fed4') in 0.346500 seconds
+  Import took 0.352742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilTrailHIGH_Root.prefab
+  artifactKey: Guid(eeb10f3a038431240a6690043924ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilTrailHIGH_Root.prefab using Guid(eeb10f3a038431240a6690043924ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f176eca4893d41587c73f11b7fbcf19') in 0.014277 seconds
+  Import took 0.053320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilSplashLOW_Root.prefab
+  artifactKey: Guid(5ff7098700dbdbf4a93dc6ab0d9d92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilSplashLOW_Root.prefab using Guid(5ff7098700dbdbf4a93dc6ab0d9d92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac87f342422ad64b066ce2343bf99a') in 0.016954 seconds
+  Import took 0.023527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilTrailLOW_Root.prefab
+  artifactKey: Guid(569295cc5c2b7b34e8c3d8af549c309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilTrailLOW_Root.prefab using Guid(569295cc5c2b7b34e8c3d8af549c309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd41edb003c052ae00593f74a3fd602d') in 0.013997 seconds
+  Import took 0.021749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/OilBottle_High.prefab
+  artifactKey: Guid(42d3d29b1bce3214cacf1c6caaf5734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/OilBottle_High.prefab using Guid(42d3d29b1bce3214cacf1c6caaf5734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac20e502623bc1f5ce75084ff291add8') in 0.039217 seconds
+  Import took 0.046628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.364463 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Trail.mat
+  artifactKey: Guid(b3bfba2b0fa6cbc4da85fedebb6f5afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Trail.mat using Guid(b3bfba2b0fa6cbc4da85fedebb6f5afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9356db6cc20f0b880df0037ac69c04') in 0.059333 seconds
+  Import took 0.063320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108267 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilTrailLOW_Root.prefab
+  artifactKey: Guid(569295cc5c2b7b34e8c3d8af549c309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilTrailLOW_Root.prefab using Guid(569295cc5c2b7b34e8c3d8af549c309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b6123c91a6958bc3173257c8a9a50f') in 0.005568 seconds
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002312 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilTrailLOW_Root.prefab
+  artifactKey: Guid(569295cc5c2b7b34e8c3d8af549c309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilTrailLOW_Root.prefab using Guid(569295cc5c2b7b34e8c3d8af549c309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b6123c91a6958bc3173257c8a9a50f') in 0.005133 seconds
+  Import took 0.009371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.909855 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilTrailHIGH_Root.prefab
+  artifactKey: Guid(eeb10f3a038431240a6690043924ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilTrailHIGH_Root.prefab using Guid(eeb10f3a038431240a6690043924ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a551b64cbfcbb0bd7ebcc64bb469f08') in 0.005302 seconds
+  Import took 0.028545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.709360 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Explosion.mat
+  artifactKey: Guid(51137797593867e4196368019cc59154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Explosion.mat using Guid(51137797593867e4196368019cc59154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add28a88f725235fcc2f8f559acd30f3') in 0.019565 seconds
+  Import took 0.025675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126985 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilSplashLOW_Root.prefab
+  artifactKey: Guid(5ff7098700dbdbf4a93dc6ab0d9d92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilSplashLOW_Root.prefab using Guid(5ff7098700dbdbf4a93dc6ab0d9d92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265b03be7c48f7343a102065c347a437') in 0.006912 seconds
+  Import took 0.011989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004517 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilSplashLOW_Root.prefab
+  artifactKey: Guid(5ff7098700dbdbf4a93dc6ab0d9d92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilSplashLOW_Root.prefab using Guid(5ff7098700dbdbf4a93dc6ab0d9d92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265b03be7c48f7343a102065c347a437') in 0.009265 seconds
+  Import took 0.015073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.647143 seconds.
+  path: Assets/FireExplosionVFX/Prefabs/Fx_OilSplashHIGH_Root.prefab
+  artifactKey: Guid(a11dc34cafe3dfd4facb59cfb4e72de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Prefabs/Fx_OilSplashHIGH_Root.prefab using Guid(a11dc34cafe3dfd4facb59cfb4e72de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff6903d65b7a88581c13a2f2e2e15f1') in 0.007547 seconds
+  Import took 0.014902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.788666 seconds.
+  path: Assets/FireExplosionVFX/Scenes/FxScene.unity
+  artifactKey: Guid(c0d62d2819cfee54984ad52886e77ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Scenes/FxScene.unity using Guid(c0d62d2819cfee54984ad52886e77ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5dc1a02bd541c4206f683ce3e43e5c') in 0.010077 seconds
+  Import took 0.015394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.250652 seconds.
+  path: Assets/FireExplosionVFX/Scripts/FxSplash.cs
+  artifactKey: Guid(c1ecde9e09a32c74ba7e59c08ddb74cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Scripts/FxSplash.cs using Guid(c1ecde9e09a32c74ba7e59c08ddb74cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9270b171a0d645cec067e9c6c9172f75') in 0.100681 seconds
+  Import took 0.104742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.332761 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Bottle.mat
+  artifactKey: Guid(9e50a8f8eabefec45a2a4b0dc9efa9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Bottle.mat using Guid(9e50a8f8eabefec45a2a4b0dc9efa9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce27ec35a6eace4883a35a5577ed2dd') in 0.020369 seconds
+  Import took 0.025482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Floor.mat
+  artifactKey: Guid(7aeaa2bc914430a41a8ba36c4bdd6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Floor.mat using Guid(7aeaa2bc914430a41a8ba36c4bdd6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65022b2c4bf16a1126e7f650c321c6f8') in 0.026163 seconds
+  Import took 0.050909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Glow.mat
+  artifactKey: Guid(1fdc7a1614f368a4ba62e87a4155c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Glow.mat using Guid(1fdc7a1614f368a4ba62e87a4155c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debcf0154b46142cfa8103ba1006eef1') in 0.018776 seconds
+  Import took 0.022839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Flame.mat
+  artifactKey: Guid(ba50352f827a2284b94df8216661b88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Flame.mat using Guid(ba50352f827a2284b94df8216661b88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc35934cb2237166c1081d9e9302931') in 0.019317 seconds
+  Import took 0.036323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/FireExplosionVFX/Art/Materials/Mat_Fire.mat
+  artifactKey: Guid(647f391651e63194dba118485762a623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Materials/Mat_Fire.mat using Guid(647f391651e63194dba118485762a623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5f30b7c06f5f006e305e8abcee0c8') in 0.016816 seconds
+  Import took 0.020969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.319381 seconds.
+  path: Assets/FireExplosionVFX/Art/Animation/Ani_FadeOff.anim
+  artifactKey: Guid(a6d74b6eb5e627345882e3754e1db0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Animation/Ani_FadeOff.anim using Guid(a6d74b6eb5e627345882e3754e1db0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c072a98e0b360043d7d7948ac297cc6c') in 0.011123 seconds
+  Import took 0.015009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067594 seconds.
+  path: Assets/FireExplosionVFX/Art/Animation/Ani_FadeOff.anim
+  artifactKey: Guid(a6d74b6eb5e627345882e3754e1db0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Animation/Ani_FadeOff.anim using Guid(a6d74b6eb5e627345882e3754e1db0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c072a98e0b360043d7d7948ac297cc6c') in 0.003713 seconds
+  Import took 0.007627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.949319 seconds.
+  path: Assets/FireExplosionVFX/Art/Animation/Ctrl_Fade.controller
+  artifactKey: Guid(d5a6720d7f843564b9cd55f82d4ae0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Animation/Ctrl_Fade.controller using Guid(d5a6720d7f843564b9cd55f82d4ae0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83b3477e8282dc3bf458c9444629c66') in 0.014174 seconds
+  Import took 0.039397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.180753 seconds.
+  path: Assets/FireExplosionVFX/Art/Meshes/msh_Bottle.FBX
+  artifactKey: Guid(d38c0149de4a89242bd1eddc5ecf16f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Meshes/msh_Bottle.FBX using Guid(d38c0149de4a89242bd1eddc5ecf16f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1988a046297d4b19e437b6a142b654ff') in 0.162606 seconds
+  Import took 0.176728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.638877 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Img_Bottle_Diffuse.png
+  artifactKey: Guid(7e2a67d179b66bf438737e5768dbf1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Img_Bottle_Diffuse.png using Guid(7e2a67d179b66bf438737e5768dbf1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b6088f33e8bf834f292c96197283be') in 0.036312 seconds
+  Import took 0.040452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Tex_Fire.tga
+  artifactKey: Guid(acf1f5757876f90459fee332aad7c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Tex_Fire.tga using Guid(acf1f5757876f90459fee332aad7c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e457c2eaa7803573560db9d788bd91a') in 0.021415 seconds
+  Import took 0.025278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Tex_Splash.png
+  artifactKey: Guid(021f6c66b57c04a42a6f811a0141c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Tex_Splash.png using Guid(021f6c66b57c04a42a6f811a0141c08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5877c9e91c0f5ef576a695aa8ae08563') in 0.017655 seconds
+  Import took 0.021772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Sp_Btn_Bck.png
+  artifactKey: Guid(4e2fc1980e44b0647b9daba9673b0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Sp_Btn_Bck.png using Guid(4e2fc1980e44b0647b9daba9673b0e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618b654fb632eaf16d34dd3bb9e1a234') in 0.057206 seconds
+  Import took 0.061494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Tex_Smoke.tga
+  artifactKey: Guid(be606757f847a8e44bf54d7a7346d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Tex_Smoke.tga using Guid(be606757f847a8e44bf54d7a7346d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2c442e5d2edd1aa0ee05a99486d440') in 0.016301 seconds
+  Import took 0.020233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Tex_Flame.jpg
+  artifactKey: Guid(a6e48b7ef7c45c443a100b03dae94ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Tex_Flame.jpg using Guid(a6e48b7ef7c45c443a100b03dae94ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3212b392f21f17d3b2fd6af7940a70') in 0.018430 seconds
+  Import took 0.022922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Img_Floor_Diffuse.jpg
+  artifactKey: Guid(3bf019ba8dc8cdf49b010874570d3460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Img_Floor_Diffuse.jpg using Guid(3bf019ba8dc8cdf49b010874570d3460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7689a1218300bc05f942fcdca9193f9e') in 0.017302 seconds
+  Import took 0.021210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/FireExplosionVFX/Art/Textures/Tex_Glow.tga
+  artifactKey: Guid(74f26eb6e6f6f5745a7668e92e5159aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Textures/Tex_Glow.tga using Guid(74f26eb6e6f6f5745a7668e92e5159aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ff1a2699e9722bdbd22382dfa2cf70') in 0.014664 seconds
+  Import took 0.019679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.040209 seconds.
+  path: Assets/Scenes/FPS.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FPS.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f01bdab9f16b498c33d3ea0a6f0acf') in 0.003826 seconds
+  Import took 0.008682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1511 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2085.
+Total: 5.018500 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.214900 ms MarkObjects: 4.250000 ms  DeleteObjects: 0.110200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.271550 seconds.
+  path: Assets/Scripts/Fire.cs
+  artifactKey: Guid(c969983b129c67b4689511fedf8fc5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Fire.cs using Guid(c969983b129c67b4689511fedf8fc5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a53a1330771d11e03358bdf825d20a') in 0.020314 seconds
+  Import took 0.025406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.446 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2089.
+Total: 3.484000 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.050600 ms  DeleteObjects: 0.134400 ms)
+

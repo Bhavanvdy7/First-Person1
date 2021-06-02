@@ -76,6 +76,30 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "PickupRock",
+                    "type": "Button",
+                    "id": "3a66fbbe-5eb3-492e-80d3-edbfbf00d6ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ThrowRock",
+                    "type": "Button",
+                    "id": "3710068d-59b0-43c0-9e1e-87c4566abbd8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseFire",
+                    "type": "Button",
+                    "id": "d4d1a493-43b6-4c38-a7c6-eb0835a1e800",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -219,6 +243,39 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "Flashlight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1ca76f5-c907-4778-a911-1e08f02e3f59",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "PickupRock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a94acbd3-b88f-440e-9eb4-48c32c98b085",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ThrowRock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3c8d8d3-0563-4fe3-9400-58b9ad1a2442",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MouseFire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

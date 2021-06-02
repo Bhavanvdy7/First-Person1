@@ -89,6 +89,30 @@ public class @FPSControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""PickupRock"",
+                    ""type"": ""Button"",
+                    ""id"": ""3a66fbbe-5eb3-492e-80d3-edbfbf00d6ab"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""ThrowRock"",
+                    ""type"": ""Button"",
+                    ""id"": ""3710068d-59b0-43c0-9e1e-87c4566abbd8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""MouseFire"",
+                    ""type"": ""Button"",
+                    ""id"": ""d4d1a493-43b6-4c38-a7c6-eb0835a1e800"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -234,6 +258,39 @@ public class @FPSControls : IInputActionCollection, IDisposable
                     ""action"": ""Flashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e1ca76f5-c907-4778-a911-1e08f02e3f59"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""PickupRock"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a94acbd3-b88f-440e-9eb4-48c32c98b085"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""ThrowRock"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d3c8d8d3-0563-4fe3-9400-58b9ad1a2442"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""MouseFire"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -268,6 +325,9 @@ public class @FPSControls : IInputActionCollection, IDisposable
         m_GameplayControls_Sprintend = m_GameplayControls.FindAction("Sprintend", throwIfNotFound: true);
         m_GameplayControls_PauseMenu = m_GameplayControls.FindAction("PauseMenu", throwIfNotFound: true);
         m_GameplayControls_Flashlight = m_GameplayControls.FindAction("Flashlight", throwIfNotFound: true);
+        m_GameplayControls_PickupRock = m_GameplayControls.FindAction("PickupRock", throwIfNotFound: true);
+        m_GameplayControls_ThrowRock = m_GameplayControls.FindAction("ThrowRock", throwIfNotFound: true);
+        m_GameplayControls_MouseFire = m_GameplayControls.FindAction("MouseFire", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -326,6 +386,9 @@ public class @FPSControls : IInputActionCollection, IDisposable
     private readonly InputAction m_GameplayControls_Sprintend;
     private readonly InputAction m_GameplayControls_PauseMenu;
     private readonly InputAction m_GameplayControls_Flashlight;
+    private readonly InputAction m_GameplayControls_PickupRock;
+    private readonly InputAction m_GameplayControls_ThrowRock;
+    private readonly InputAction m_GameplayControls_MouseFire;
     public struct GameplayControlsActions
     {
         private @FPSControls m_Wrapper;
@@ -339,6 +402,9 @@ public class @FPSControls : IInputActionCollection, IDisposable
         public InputAction @Sprintend => m_Wrapper.m_GameplayControls_Sprintend;
         public InputAction @PauseMenu => m_Wrapper.m_GameplayControls_PauseMenu;
         public InputAction @Flashlight => m_Wrapper.m_GameplayControls_Flashlight;
+        public InputAction @PickupRock => m_Wrapper.m_GameplayControls_PickupRock;
+        public InputAction @ThrowRock => m_Wrapper.m_GameplayControls_ThrowRock;
+        public InputAction @MouseFire => m_Wrapper.m_GameplayControls_MouseFire;
         public InputActionMap Get() { return m_Wrapper.m_GameplayControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -375,6 +441,15 @@ public class @FPSControls : IInputActionCollection, IDisposable
                 @Flashlight.started -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnFlashlight;
                 @Flashlight.performed -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnFlashlight;
                 @Flashlight.canceled -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnFlashlight;
+                @PickupRock.started -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnPickupRock;
+                @PickupRock.performed -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnPickupRock;
+                @PickupRock.canceled -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnPickupRock;
+                @ThrowRock.started -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnThrowRock;
+                @ThrowRock.performed -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnThrowRock;
+                @ThrowRock.canceled -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnThrowRock;
+                @MouseFire.started -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnMouseFire;
+                @MouseFire.performed -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnMouseFire;
+                @MouseFire.canceled -= m_Wrapper.m_GameplayControlsActionsCallbackInterface.OnMouseFire;
             }
             m_Wrapper.m_GameplayControlsActionsCallbackInterface = instance;
             if (instance != null)
@@ -406,6 +481,15 @@ public class @FPSControls : IInputActionCollection, IDisposable
                 @Flashlight.started += instance.OnFlashlight;
                 @Flashlight.performed += instance.OnFlashlight;
                 @Flashlight.canceled += instance.OnFlashlight;
+                @PickupRock.started += instance.OnPickupRock;
+                @PickupRock.performed += instance.OnPickupRock;
+                @PickupRock.canceled += instance.OnPickupRock;
+                @ThrowRock.started += instance.OnThrowRock;
+                @ThrowRock.performed += instance.OnThrowRock;
+                @ThrowRock.canceled += instance.OnThrowRock;
+                @MouseFire.started += instance.OnMouseFire;
+                @MouseFire.performed += instance.OnMouseFire;
+                @MouseFire.canceled += instance.OnMouseFire;
             }
         }
     }
@@ -430,5 +514,8 @@ public class @FPSControls : IInputActionCollection, IDisposable
         void OnSprintend(InputAction.CallbackContext context);
         void OnPauseMenu(InputAction.CallbackContext context);
         void OnFlashlight(InputAction.CallbackContext context);
+        void OnPickupRock(InputAction.CallbackContext context);
+        void OnThrowRock(InputAction.CallbackContext context);
+        void OnMouseFire(InputAction.CallbackContext context);
     }
 }

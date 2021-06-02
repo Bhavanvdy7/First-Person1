@@ -21,5 +21,6 @@ public class Score : MonoBehaviour
         counter = GameObject.FindGameObjectsWithTag("Pickup").Length;
         score = "Keys Remaining :" + counter.ToString();
         scoreText.text = score;
+
     }
 }
